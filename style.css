@@ -1,5 +1,10 @@
 /* ESTILOS GLOBAIS */
 
+html{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -90,14 +95,17 @@ header{
 /* CARDS */
 
 .container-cards{
-
     display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
     padding: 30px;  
     margin-top: 90px;
+    margin-bottom: 100px;
+}
 
+.container-cards a {
+    display: contents;
 }
 
 .card{

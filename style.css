@@ -104,10 +104,6 @@ header{
     margin-bottom: 100px;
 }
 
-.container-cards a {
-    display: contents;
-}
-
 .card{
     display: grid;
     grid-template-columns: 0% 1fr;

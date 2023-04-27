@@ -129,6 +129,9 @@ header{
     .card{
         width: 400px;
     }
+    header{
+        height: 150px;
+    }
 }
 
 @media(max-width:450px){
